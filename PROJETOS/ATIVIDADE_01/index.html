@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Acceskey</title>
+    <title>Fieldset and Legend</title>
 </head>
+
 <body>
-    <h1>Acessando por teclas de atalho</h1>
-    <p>Esse atributo define a teclas de atalho para acessar um link</p>
-    <p>ALT + U = site da UOL</p>
-    <P>ALT + U = site da UOL </P>
-    <p><a href="http://www.uol.com.br" accesskey="U">Uol</a></p>
-    <p><a href="http://www.g1.com.br" accesskey="G">Uol</a></p>
-    <a href="" accesskey=""></a>
+    <h1>Trabalhando com formulário</h1>
+    <h2>Exemplos com a tag FIELD</h2>
+    <fieldset>
+        <legend>UF</legend>
+        <label for="Defina o estado que você mora"></label>
+        <input name="UF_nacimento" list="Estados" type="Estados Brasileiros" />
+        <datalist id="Estados">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="SP">São Paulo</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="PA">Pará</option>
+            <option value="PR">Paraná</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </datalist>
+    </fieldset>
 </body>
+
 </html>
